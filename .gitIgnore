@@ -1,2 +1,4 @@
 .env
-node_mudules
+node_modules/
+logs/
+.DS_Store 
