@@ -11,11 +11,6 @@ const LAUNCHES_QUERY = gql`
             mission_name
             launch_success
             launch_date_local
-            rocket {
-                rocket_id
-                rocket_name
-                launch_year
-              }
         }
     }
 `;  

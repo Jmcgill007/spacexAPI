@@ -4,7 +4,7 @@ const Axios = require('axios')
 const RocketType = new GraphQLObjectType({
     name: 'Rocket',
     fields: ()=> ({
-        rocket_id: { type: GraphQLString },
+        rocket_id: { type: GraphQLInt },
         rocket_name: { type: GraphQLString },
         launch_year: { type: GraphQLString }
     })
