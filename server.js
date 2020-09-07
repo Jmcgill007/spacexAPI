@@ -1,12 +1,16 @@
 const express = require('express')
+const bodyParser = require('body-parser')
 const { graphqlHTTP } = require('express-graphql')
-const app = express();
-const PORT =  process.env.PORT || 3030;
+const PORT =  process.env.PORT || 8080;
 const schema = require('./schema.js')
-app.use('/graphql', graphqlHTTP({
+const cors = require('cors') 
+const app = express();
+app.use(cors());
+app.use('/graphql', bodyParser.json(), graphqlHTTP({
     schema,
     graphiql: true
 }));
+
 
 
 app.listen(PORT, ()=>{
