@@ -41,18 +41,6 @@ class Launches extends Component  {
         </React.Fragment>
     )}
 }
-// export const Launches = () => {
-//     const { loading, error, data } = useQuery(LAUNCHES_QUERY);
-//     return (
-//         <div>
-//             <h1 className="display-4 my-3">Launches</h1>
-//             <h2>
-//                 {
-                    
-//                 }
-//             </h2>
-//         </div>
-//     )
-// }
+
 export default Launches;
 

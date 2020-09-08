@@ -14,7 +14,7 @@ function App() {
           style={{width: "full",height: 200, display: 'block', margin: 'auto'}}
         />
         <Route exact path="/" component={Launches} />
-        <Route exact path="/launch/:fligh_tNumber" component={Launch} />
+        <Route exact path="/launch/:flight_number" component={Launch} />
       </div>
     </Router>  
   );
