@@ -5,7 +5,7 @@ An app that will perform graphQL Queries to the spaceX api. This app uses GraphQ
 
 -The full JSON schema structure for  information retrieved from the space x API can be viewed on their gitHub here: https://github.com/r-spacex/SpaceX-API
 
-I made this application because I recently have been playing around with the Shopify API and tried out their create a react app (part of their devPartners platform) and it utilizes alot of the same core technology here such as Apollo and GraphQl. 
+I made this application because I recently have been playing around with the Shopify API and tried out their create a react app (part of their devPartners platform) and it utilizes alot of the same core technology here such as Apollo and GraphQL. 
 
 The basis of this App is simply that, I wanted to be able to see information related to past SpaceX Launches.
 I wanted to know the mission names, the rocket names, the dates, and whether they were successful as well as view images or the launch itself. The SpaceX API has All of this and more! 
