@@ -13,3 +13,6 @@ I used an express based server querried via graphQL. Apollo is the mechanism by 
 
 Unforutnately the earlier launches don't have photos but check out the newer launches further down on the page. Some excellent imagery!
 >Checkout this the deployed version here: https://japollo-spacex.herokuapp.com/
+
+More to come and be added to this project soon.
+Currently Bug Hunting!
